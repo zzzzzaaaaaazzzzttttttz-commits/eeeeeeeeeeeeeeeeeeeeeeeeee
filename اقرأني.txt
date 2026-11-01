@@ -1,0 +1,9 @@
+مود صغير جداً (Gem Books) يخلي الكتب المسحورة تطلع بشكل الحجر وباسمه. يشتغل مع GemEnchantPack.
+
+1) github.com > New repository (جديد، أي اسم، Public)
+2) Add file > Upload files، اسحب كل محتويات هذا المجلد (بما فيها .github) وسوي Commit
+   (العدد أقل من 100 ملف، رفعة وحدة تكفي)
+3) إذا .github ما انرفع: Add file > Create new file واكتب الاسم  .github/workflows/build.yml
+   والصق محتوى build.yml الموجود بالمجلد
+4) Actions > انتظر العلامة الخضراء > نزّل gembooks-mod من Artifacts > فك الضغط
+5) حط الـ jar بمجلد mods
